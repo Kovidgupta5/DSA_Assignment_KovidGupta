@@ -1,0 +1,5 @@
+We count how many times each letter appears in the licensePlate (ignoring numbers, spaces, and case).
+Then, for each word in the list, we check if it has all those letters in equal or higher quantity.
+If it does, it is a “completing word.”
+Among all completing words, we choose the shortest one.
+If multiple words have the same length, we return the one that appears first in the list.

@@ -1,0 +1,5 @@
+We first sort all card values so we know the increasing order.
+Then, we use a queue to simulate the revealing process.
+We repeatedly take the front position from the queue and place the next smallest card there.
+After placing one card, we move the next position in the queue to the back (like rotating the deck).
+This way, we find the order in which the cards must be arranged initially so that they are revealed in increasing order.
